@@ -1,5 +1,6 @@
 body {
 	margin:0px;
+	padding: 0px;
 }
 
 #landing {
@@ -7,6 +8,8 @@ body {
 	width:100vw;
 	height: 100vh;
 	margin-top: 0px;
+	/* z-index: -1;
+	position: absolute; */
 }
 
 
@@ -18,7 +21,8 @@ body {
 	width: 95vw;
 	
 }
-
+/* 18.1vh */
+/* 18.5vh */
 #logo {
 	display: inline-block;
 }
@@ -73,17 +77,42 @@ display: inline-block;
 	display: inline-block;
 }
 
-#grid{
-        margin-top : 200px;
-		width: 800px;
-		height: 700px;
-		background-color: #1f3de7;
-		margin-left: auto;
-		margin-right: auto;
-}
+#Content-bg {
+	width: 94vw;
+	height: 14vh;
+	background-color: #ffffff;
+  }
 
-#background-image {
-	z-index: -1;
-	position: absolute;
-}
+  #grid-navbar{
+	  margin-left:12.3vw;
+	  margin-right: 12.5vw;
+	  margin-top: 7.5vh;
+  }
+
+  #popular {
+	width: 3.5vw;
+	height: 2.43vh;
+	font-family: 'Source Serif Pro';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #24292c;
+  }
+
+  #month {
+	width: 5.2vw;
+	height: 2.4vh;
+	font-family: 'Source Serif Pro';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #24292c;
+  }
+
 
