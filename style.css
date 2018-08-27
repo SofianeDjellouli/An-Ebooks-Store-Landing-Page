@@ -5,5 +5,24 @@
 	margin-top: 2.9vh;
 	height: 4.4vh;
 	width: 95vw;
+	
+}
+
+#layer{
 	display: inline-block;
 }
+
+#grid{
+        margin-top : 200px;
+		width: 800px;
+		height: 700px;
+		background-color: #1f3de7;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#background-image {
+	z-index: -1;
+	position: absolute;
+}
+
