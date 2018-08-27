@@ -136,3 +136,23 @@ svg {
 	fill:#0b0414;
 }
 
+.flex-container{
+	display: flex;
+	justify-content: center;
+	margin-top : 19.4vh;
+	flex-wrap: wrap;
+	align-content: space-between;
+	
+}
+
+.flex-container > div{
+	width: 345px;
+	height: 391px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(135, 152, 164, 0.3);
+	margin-right: 35px;
+	margin-bottom: 50px; 	
+ 
+}
+
+
