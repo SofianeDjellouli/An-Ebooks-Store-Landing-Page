@@ -5,18 +5,16 @@ body {
 
 #landing {
 	background-image: url(./assets/background-image.png);
-	width:100vw;
-	height: 100vh;
+	background-color: #f2f5f7;
+	height: 127vh;
 	margin-top: 0px;
-	/* z-index: -1;
-	position: absolute; */
 }
 
 
 #header {
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
-	margin-top: 2.9vh;
+	padding-top: 2.9vh;
 	height: 4.4vh;
 	width: 95vw;
 	
@@ -25,30 +23,36 @@ body {
 /* 18.5vh */
 #logo {
 	display: inline-block;
+    width: 23px;
+  	height: 19px;
+    vertical-align: middle;
 }
 
 #layer{
 	font-family: 'Source Serif Pro';
-	font-size: 20px;
+	font-size: 2.4vh;
 	font-weight: bold;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: normal;
 	letter-spacing: normal;
 	color: #ffffff;
-	display: inline-block;
-	margin-left: 0.25vw;
+	display: inline;
+	margin-left: 1.1vw;
 	margin-right: 55vw;
+	height: 100%;
+    vertical-align: middle;
 
 }
 
 #navbar{
-		border-right: solid 4px #383f43;
-display: inline-block;
+	border-right: solid 4px #383f43;
+	display: inline;
+	height: 100%;
+    vertical-align: middle;
 }
 
 #navbar > a {
-	display: inline-block;
 	font-family: 'Source Serif Pro';
 	  font-size: 13px;
 	  font-weight: normal;
@@ -79,9 +83,13 @@ display: inline-block;
 
 #Content-bg {
 	width: 94vw;
-	height: 14vh;
+	height: 136vh;
 	background-color: #ffffff;
-  }
+	z-index: 1;
+	position: absolute;
+	top:66vh;
+	right:2.8vw;
+ }
 
   #grid-navbar{
 	  margin-left:12.3vw;
@@ -115,4 +123,16 @@ display: inline-block;
 	color: #24292c;
   }
 
+#lastdiv {
+	height: 93.5vh;
+	background-color: #f2f5f7;
+}
+
+svg {
+
+}
+
+#polygon {
+	fill:#0b0414;
+}
 
