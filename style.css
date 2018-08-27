@@ -1,3 +1,14 @@
+body {
+	margin:0px;
+}
+
+#landing {
+	background-image: url(./assets/background-image.png);
+	width:100vw;
+	height: 100vh;
+	margin-top: 0px;
+}
+
 
 #header {
 	margin-left: 2.5vw;
@@ -8,7 +19,57 @@
 	
 }
 
+#logo {
+	display: inline-block;
+}
+
 #layer{
+	font-family: 'Source Serif Pro';
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	display: inline-block;
+	margin-left: 0.25vw;
+	margin-right: 55vw;
+
+}
+
+#navbar{
+		border-right: solid 4px #383f43;
+display: inline-block;
+}
+
+#navbar > a {
+	display: inline-block;
+	font-family: 'Source Serif Pro';
+	  font-size: 13px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  color: #ffffff;
+	  text-decoration: none;
+}
+
+#topbooks{
+	margin-left: 4.2vw;
+	margin-right: 4.3vw; 
+}
+
+#help {
+	margin-left: 4.2vw;
+	margin-right: 4.3vw;
+}
+
+#picture1 {
+	display: inline-block;
+}
+#picture2 {
 	display: inline-block;
 }
 
