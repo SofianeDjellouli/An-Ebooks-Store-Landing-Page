@@ -176,7 +176,8 @@ h2 {
 	color: #c2327f;
 	text-decoration: none;
 	margin-left: 18vw;
-	margin-right: 0.6vw;
+	margin-right: 1vw;
+	
 }
 
 #free {
@@ -191,8 +192,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
-	margin-left: 0.6vw;
-	margin-right: 0.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
 #photo {
@@ -207,8 +208,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
-	margin-left: 0.6vw;
-	margin-right: 0.6vw;
+	margin-left: 1vw;
+	margin-right:1vw;
 }
 
 #sketch {
@@ -223,8 +224,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
-	margin-left: 0.6vw;
-	margin-right: 0.6vw;
+	margin-left: 1vw;
+	margin-right: vw;
 }
 
 #after {
@@ -240,8 +241,8 @@ h2 {
 	text-align: right;
 	color: #bdbebf;
 	text-decoration: none;
-	margin-left: 0.6vw;
-	margin-right: 0.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 	position: relative;
 	display: inline;
 }
@@ -255,6 +256,9 @@ h2 {
 	right: 0;
 }
 
+.click{
+	cursor:pointer;
+}
 #illustrator {
 	width: 4.5vw;
 	height: 2.4vh;
@@ -268,8 +272,8 @@ h2 {
 	text-align: right;
 	color: #bdbebf;
 	text-decoration: none;
-	margin-left: 0.6vw;
-	margin-right: 0.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 	position: relative;
 	display: inline;
 }
@@ -290,6 +294,7 @@ h3 {
 	letter-spacing: normal;
 	color: #24292c;
 	margin-bottom: 4px;
+	cursor : pointer;
 }
 
 .elements > p {
@@ -309,6 +314,7 @@ h3 {
 	border-bottom: solid 1px #e5e7e9;
 	width: 17.4vw;
 	padding-bottom: 2.07vh;
+	cursor : pointer;
 }
 
 .reviews > img {
@@ -406,6 +412,7 @@ z-index: 4;
 	letter-spacing: normal;
 	color: #8798a4;
 	display: inline-block;
+	cursor : pointer;
 }
 
 svg {
@@ -455,6 +462,7 @@ svg {
   margin-left: 70.5vw;
   position: absolute;
   bottom:5.83vh;
+  cursor : pointer;
 }
 
 .Line {
