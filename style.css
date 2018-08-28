@@ -304,6 +304,7 @@ h3 {
 .reviews > img {
 	vertical-align: middle;
 	padding-top: 5px;
+	
 }
 
 .reviews > p {
@@ -335,7 +336,13 @@ h3 {
 .likes img {
 	vertical-align: middle;
 	padding-top: 1px;
+	z-index:auto;
+	
 }
+
+
+
+
 
 .likes > p {
 	margin-top: 0;
