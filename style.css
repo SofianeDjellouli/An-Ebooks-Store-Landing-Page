@@ -42,7 +42,6 @@ body {
 	display: inline;
 	margin-left: 1.1vw;
 	margin-right: 49vw;
-	height: 100%;
     vertical-align: middle;
 
 }
@@ -50,7 +49,6 @@ body {
 #navbar{
 	border-right: solid 2px #383f43;
 	display: inline;
-	height: 100%;
     vertical-align: middle;
 }
 
@@ -156,6 +154,10 @@ h2 {
 	text-decoration: none;
 	margin-left: 3.0vw;
   }
+   .right:hover{
+	  border-bottom: solid 1px #c2327f;
+	  padding-bottom: 1.2vh;
+   }
 
   #all {
 	width: 1.3vw;
@@ -170,8 +172,11 @@ h2 {
 	color: #c2327f;
 	text-decoration: none;
 	margin-left: 18vw;
+	margin-right: 0.6vw;
+	
   }
 
+  
   #free {
 	width: 4.3vh;
 	height: 2.4vh;
@@ -184,6 +189,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
 	
   }
 
@@ -199,6 +206,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
   }
 
   #sketch {
@@ -213,6 +222,8 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
   }
 
   #after {
@@ -228,11 +239,34 @@ h2 {
 	text-align: right;
 	color: #bdbebf;
 	text-decoration: none;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
+	position: absolute;
+	display: inline;
+  }
+
+
+  #small{
+	font-size: 11px;
+	line-height: 1.09;
+	color: #c2327f;
+	position: relative;
+	bottom: 0;
+	right: 0;
+  }
+
+  #text{
+	font-size: 11px;
+	line-height: 1.09;
+	color: #c2327f;
+	position: relative;
+	bottom: 0;
+	right: 0;
   }
 
   #illustrator {
 	width: 4.5vw;
-	height: 2.4vh;
+	height: 2.4vh; 
 	font-family: 'Source Serif Pro';
 	font-size: 16px;
 	font-weight: normal;
@@ -243,6 +277,10 @@ h2 {
 	text-align: right;
 	color: #bdbebf;
 	text-decoration: none;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
+	position: absolute;
+	 display: inline; 
 	
   }
 
