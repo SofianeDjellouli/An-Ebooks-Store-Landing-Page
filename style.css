@@ -111,18 +111,19 @@ h2 {
 
 #Content-bg {
 	width: 94vw;
-	height: 136vh;
+	height: 159vh;
 	background-color: #ffffff;
 	z-index: 1;
 	position: absolute;
 	top: 57vh;
-	right: 2.8vw;
+	right: 2.6vw;
 }
 
 #grid-navbar {
 	margin-left: 12.3vw;
 	margin-right: 12.5vw;
 	margin-top: 7.5vh;
+	margin-bottom: 9.29vh;
 }
 
 #popular {
@@ -276,7 +277,7 @@ h2 {
 }
 
 h3 {
-	    margin-top: 0;
+	margin-top: 0;
 	font-family: 'Source Serif Pro';
 	font-size: 20px;
 	font-weight: bold;
@@ -301,10 +302,15 @@ h3 {
 	margin-bottom: 0.43vh;
 }
 
+.reviews {
+	border-bottom: solid 1px #e5e7e9;
+	width: 17.4vw;
+	padding-bottom: 2.07vh;
+}
+
 .reviews > img {
 	vertical-align: middle;
 	padding-top: 5px;
-	
 }
 
 .reviews > p {
@@ -320,15 +326,37 @@ h3 {
 	letter-spacing: normal;
 	color: #c2327f;
 	display: inline-block;
+	position: relative;
+	left: -28px;
 }
 
-.reviews{
-	border-bottom: solid 1px #e5e7e9;
-	width:17.4vw;
-	padding-bottom: 2.07vh;
+.star1{
+z-index: 4;
+	position: relative;
+	left: 0;
+}
+.star2{
+	z-index: 3;
+	position: relative;
+	left: -7px;
+}
+.star3{
+	z-index: 2;
+	position: relative;
+	left: -14px;
+}
+.star4{
+	z-index: 1;
+	position: relative;
+	left: -21px;
+}
+.star5{
+	z-index: 0;
+	position: relative;
+	left: -28px;
 }
 
-.likes{
+.likes {
 	margin-top: 2.38vh;
 	margin-bottom: 2.38vh;
 }
@@ -336,25 +364,44 @@ h3 {
 .likes img {
 	vertical-align: middle;
 	padding-top: 1px;
-	z-index:auto;
-	
 }
 
+.one{
+	z-index: 4;
+	position: relative;
+	left: 0;
+}
 
+.two{
+	z-index: 3;
+	position: relative;
+	left: -18px;
+}
 
+.three{
+	z-index: 2;
+	position: relative;
+	left: -36px;
+}
 
+.four{
+	z-index: 1;
+	position: relative;
+	left: -54px;
+}
 
 .likes > p {
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: -54px;
 	font-family: 'Source Serif Pro';
-	  font-size: 10px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #8798a4;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #8798a4;
 	display: inline-block;
 }
 
@@ -370,10 +417,13 @@ svg {
 	fill: #0b0414;
 }
 
+#first{
+	box-shadow:0 37px 163px -63px rgba(0, 0, 0, 1);
+}
+
 .flex-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 19.4vh;
 	flex-wrap: wrap;
 	align-content: space-between;
 }
