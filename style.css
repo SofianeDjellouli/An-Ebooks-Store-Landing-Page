@@ -252,7 +252,7 @@ h2 {
 	line-height: 1.09;
 	color: #c2327f;
 	position: absolute;
-	bottom: 0;
+	bottom: -6px;
 	right: 0;
 }
 
