@@ -1,5 +1,5 @@
 body {
-	margin:0px;
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -12,27 +12,27 @@ body {
 	margin-top: 0px;
 }
 
-
 #header {
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 	padding-top: 3.9vh;
 	height: 4.4vh;
 	width: 95vw;
-	
 }
+
 /* 18.1vh */
+
 /* 18.5vh */
 #logo {
 	display: inline-block;
-    width: 23px;
-  	height: 19px;
-    vertical-align: middle;
+	width: 23px;
+	height: 19px;
+	vertical-align: middle;
 }
 
-#layer{
+#layer {
 	font-family: 'Source Serif Pro';
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	font-style: normal;
 	font-stretch: normal;
@@ -42,31 +42,30 @@ body {
 	display: inline;
 	margin-left: 1.1vw;
 	margin-right: 49vw;
-    vertical-align: middle;
-
+	vertical-align: middle;
 }
 
-#navbar{
+#navbar {
 	border-right: solid 2px #383f43;
 	display: inline;
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 #navbar > a {
 	font-family: 'Source Serif Pro';
-	  font-size: 13px;
-	  font-weight: normal;
-	  font-style: normal;
-	  font-stretch: normal;
-	  line-height: normal;
-	  letter-spacing: normal;
-	  color: #8798a4;
-	  text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #8798a4;
+	text-decoration: none;
 }
 
-#topbooks{
+#topbooks {
 	margin-left: 4.2vw;
-	margin-right: 4.3vw; 
+	margin-right: 4.3vw;
 }
 
 #help {
@@ -79,6 +78,7 @@ body {
 	margin-left: 3.06vw;
 	margin-right: 0.28vw;
 }
+
 #picture2 {
 	display: inline-block;
 }
@@ -86,27 +86,27 @@ body {
 h1 {
 	margin-top: 16.74vh;
 	font-family: 'Source Serif Pro';
-	  font-size: 36px;
-	  font-weight: normal;
-	  font-style: normal;
-	  font-stretch: normal;
-	  line-height: normal;
-	  letter-spacing: normal;
-	  text-align: center;
-	  color: #ffffff;
+	font-size: 34px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
 }
 
 h2 {
 	opacity: 0.5;
-  font-family: 'Source Serif Pro';
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+	font-family: 'Source Serif Pro';
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
 }
 
 #Content-bg {
@@ -115,22 +115,21 @@ h2 {
 	background-color: #ffffff;
 	z-index: 1;
 	position: absolute;
-	top:57vh;
-	right:2.8vw;
- }
+	top: 57vh;
+	right: 2.8vw;
+}
 
-  #grid-navbar{
-	  margin-left:12.3vw;
-	  margin-right: 12.5vw;
-	  margin-top: 7.5vh;
-  }
+#grid-navbar {
+	margin-left: 12.3vw;
+	margin-right: 12.5vw;
+	margin-top: 7.5vh;
+}
 
-
-  #popular {
+#popular {
 	width: 3.5vw;
 	height: 2.43vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -138,13 +137,13 @@ h2 {
 	letter-spacing: normal;
 	color: #24292c;
 	text-decoration: none;
-  }
+}
 
-  #month {
+#month {
 	width: 5.2vw;
 	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -153,17 +152,18 @@ h2 {
 	color: #24292c;
 	text-decoration: none;
 	margin-left: 3.0vw;
-  }
-   .right:hover{
-	  border-bottom: solid 1px #c2327f;
-	  padding-bottom: 1.2vh;
-   }
+}
 
-  #all {
+.right:hover {
+	border-bottom: solid 1px #c2327f;
+	padding-bottom: 1.2vh;
+}
+
+#all {
 	width: 1.3vw;
 	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -173,15 +173,13 @@ h2 {
 	text-decoration: none;
 	margin-left: 18vw;
 	margin-right: 0.6vw;
-	
-  }
+}
 
-  
-  #free {
+#free {
 	width: 4.3vh;
 	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -191,14 +189,13 @@ h2 {
 	text-decoration: none;
 	margin-left: 0.6vw;
 	margin-right: 0.6vw;
-	
-  }
+}
 
-  #photo {
+#photo {
 	width: 4.7vw;
 	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -208,13 +205,13 @@ h2 {
 	text-decoration: none;
 	margin-left: 0.6vw;
 	margin-right: 0.6vw;
-  }
+}
 
-  #sketch {
+#sketch {
 	width: 2.9vw;
 	height: 2.4vh;
 	font-family: SourceSerifPro;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -224,13 +221,13 @@ h2 {
 	text-decoration: none;
 	margin-left: 0.6vw;
 	margin-right: 0.6vw;
-  }
+}
 
-  #after {
+#after {
 	width: 5.5vw;
 	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -241,34 +238,24 @@ h2 {
 	text-decoration: none;
 	margin-left: 0.6vw;
 	margin-right: 0.6vw;
-	position: absolute;
+	position: relative;
 	display: inline;
-  }
+}
 
-
-  #small{
-	font-size: 11px;
+#text {
+	font-size: 9px;
 	line-height: 1.09;
 	color: #c2327f;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	right: 0;
-  }
+}
 
-  #text{
-	font-size: 11px;
-	line-height: 1.09;
-	color: #c2327f;
-	position: relative;
-	bottom: 0;
-	right: 0;
-  }
-
-  #illustrator {
+#illustrator {
 	width: 4.5vw;
-	height: 2.4vh; 
+	height: 2.4vh;
 	font-family: 'Source Serif Pro';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -279,62 +266,89 @@ h2 {
 	text-decoration: none;
 	margin-left: 0.6vw;
 	margin-right: 0.6vw;
-	position: absolute;
-	 display: inline; 
-	
-  }
+	position: relative;
+	display: inline;
+}
 
-.elements{
+.elements {
 	margin-top: 2.38vh;
 	margin-left: 1.34vw;
 }
 
 h3 {
+	    margin-top: 0;
 	font-family: 'Source Serif Pro';
-  font-size: 22px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #24292c;
-  margin-bottom: 4px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #24292c;
+	margin-bottom: 4px;
 }
 
 .elements > p {
-	 font-family: 'Source Serif Pro';
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #8798a4;
-  margin-top: 0;
-  margin-bottom: 1.43vh;
+	font-family: 'Source Serif Pro';
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #8798a4;
+	margin-top: 0;
+	margin-bottom: 0.43vh;
 }
 
 .reviews > img {
 	vertical-align: middle;
+	padding-top: 5px;
 }
 
 .reviews > p {
 	margin-top: 0;
 	margin-bottom: 0;
 	text-decoration: underline;
-  font-family: 'Source Serif Pro';
-  font-size: 11px;
+	font-family: 'Source Serif Pro';
+	font-size: 9px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #c2327f;
+	display: inline-block;
+}
+
+.reviews{
+	border-bottom: solid 1px #e5e7e9;
+	width:17.4vw;
+	padding-bottom: 2.07vh;
+}
+
+.likes{
+	margin-top: 2.38vh;
+	margin-bottom: 2.38vh;
+}
+
+.likes img {
+	vertical-align: middle;
+	padding-top: 1px;
+}
+
+.likes > p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Source Serif Pro';
+	  font-size: 10px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #c2327f;
-  display: inline-block;
-}
-
-.reviews {
-  
+  color: #8798a4;
+	display: inline-block;
 }
 
 #lastdiv {
@@ -343,34 +357,29 @@ h3 {
 }
 
 svg {
-
 }
 
 #polygon {
-	fill:#0b0414;
+	fill: #0b0414;
 }
 
-.flex-container{
+.flex-container {
 	display: flex;
 	justify-content: center;
-	margin-top : 19.4vh;
+	margin-top: 19.4vh;
 	flex-wrap: wrap;
 	align-content: space-between;
-	
 }
 
-.flex-container > div{
+.flex-container > div {
 	width: 21.13vw;
-    height: 47.5vh;
+	height: 51vh;
 	background-color: #ffffff;
 	box-shadow: 0 2px 4px 0 rgba(135, 152, 164, 0.3);
 	margin-right: 35px;
-	margin-bottom: 50px; 	
- 
+	margin-bottom: 50px;
 }
 
 .flex-container > div > img {
 	width: 21.13vw;
 }
-
-
