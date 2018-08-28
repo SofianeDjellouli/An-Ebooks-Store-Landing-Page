@@ -440,3 +440,23 @@ svg {
 .flex-container > div > img {
 	width: 21.13vw;
 }
+
+.next-page{
+  font-family: 'Source Serif Pro';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #24292c;
+  margin-left: 65vw;
+}
+
+.Line {
+  width: 30px;
+  height: 2px;
+  border-bottom: solid 2px #c2327f;
+  margin-left : 75vw;
+  
+}
