@@ -4,8 +4,10 @@ body {
 }
 
 #landing {
-	background-image: url(./assets/background-image.png);
+	background: url(./assets/background-image.png) no-repeat;
+	background-position: center top;
 	background-color: #f2f5f7;
+	background-size: 99vw;
 	height: 127vh;
 	margin-top: 0px;
 }
@@ -14,7 +16,7 @@ body {
 #header {
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
-	padding-top: 2.9vh;
+	padding-top: 3.9vh;
 	height: 4.4vh;
 	width: 95vw;
 	
@@ -30,7 +32,7 @@ body {
 
 #layer{
 	font-family: 'Source Serif Pro';
-	font-size: 2.4vh;
+	font-size: 20px;
 	font-weight: bold;
 	font-style: normal;
 	font-stretch: normal;
@@ -39,14 +41,14 @@ body {
 	color: #ffffff;
 	display: inline;
 	margin-left: 1.1vw;
-	margin-right: 55vw;
+	margin-right: 49vw;
 	height: 100%;
     vertical-align: middle;
 
 }
 
 #navbar{
-	border-right: solid 4px #383f43;
+	border-right: solid 2px #383f43;
 	display: inline;
 	height: 100%;
     vertical-align: middle;
@@ -60,7 +62,7 @@ body {
 	  font-stretch: normal;
 	  line-height: normal;
 	  letter-spacing: normal;
-	  color: #ffffff;
+	  color: #8798a4;
 	  text-decoration: none;
 }
 
@@ -76,9 +78,37 @@ body {
 
 #picture1 {
 	display: inline-block;
+	margin-left: 3.06vw;
+	margin-right: 0.28vw;
 }
 #picture2 {
 	display: inline-block;
+}
+
+h1 {
+	margin-top: 16.74vh;
+	font-family: 'Source Serif Pro';
+	  font-size: 36px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #ffffff;
+}
+
+h2 {
+	opacity: 0.5;
+  font-family: 'Source Serif Pro';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }
 
 #Content-bg {
@@ -87,7 +117,7 @@ body {
 	background-color: #ffffff;
 	z-index: 1;
 	position: absolute;
-	top:66vh;
+	top:57vh;
 	right:2.8vw;
  }
 
@@ -215,6 +245,59 @@ body {
 	text-decoration: none;
 	
   }
+
+.elements{
+	margin-top: 2.38vh;
+	margin-left: 1.34vw;
+}
+
+h3 {
+	font-family: 'Source Serif Pro';
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #24292c;
+  margin-bottom: 4px;
+}
+
+.elements > p {
+	 font-family: 'Source Serif Pro';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8798a4;
+  margin-top: 0;
+  margin-bottom: 1.43vh;
+}
+
+.reviews > img {
+	vertical-align: middle;
+}
+
+.reviews > p {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-decoration: underline;
+  font-family: 'Source Serif Pro';
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #c2327f;
+  display: inline-block;
+}
+
+.reviews {
+  
+}
 
 #lastdiv {
 	height: 93.5vh;
